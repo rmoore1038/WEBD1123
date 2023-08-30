@@ -1,0 +1,56 @@
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Anton', sans-serif; 
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+div#container {
+    width: 100vw;
+    height: 100vh;
+    background-color:darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#container-section {
+    width: 800px;
+    height: 400px; 
+    background-color:green;
+    position: relative; 
+}
+h1#heading1 {
+    font-family: 'Anton', sans-serif; 
+    color:purple;
+    font-size: 80px;
+    text-align: center
+ 
+
+
+}
+p#paragraph {
+    width:80%;
+    height:40%;
+    margin:0;
+    padding:1em;
+    background-color:white;
+    color:orange: aliceblue;
+    font-family: 'Anton, san-serif';
+    font-size:1.35em;
+}
+
+button#btn {
+    position: absolute;
+      bottom: 0; 
+      right: 40%;
+      font-size: 1.5em; 
+      padding: 1em 2em; 
+      text-align: center;
+      border: none;
+      border-radius:2em;
+      margin-bottom: 1em;
+}
