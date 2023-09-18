@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* div {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#div-one {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div-two {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-size: 10em; */
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+p, b, i {
+    color: aqua;
+    font-size: 4em;
+}
+#div-three {
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+}
+#section-threeA {
+    width: 300px; 
+    height: 100px;
+    background-color: yellow;
+}
+#section-threeB {
+    width: 300px; 
+    height: 100px;
+    background-color: orange;
+}
+#inline-three {
+    width: 300px; 
+    height: 100px;
+    background-color: yellow;
+}
+#inline-four {
+    width: 300px; 
+    height: 100px;
+    background-color: orange;
+}
+#div-four {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  sup, sub {
+    color: orange;
+  }
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Roboto', sans-serif; 
+*/
